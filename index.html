@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quotes</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      main {
+        background-color: hsl(218, 23%, 16%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        position: relative;
+        font-weight: bold;
+      }
+      .content {
+        background-color: hsl(217, 19%, 24%);
+        padding: 20px 20px 2.5rem;
+        width: 25rem;
+        border-radius: 15px;
+        text-align: center;
+      }
+      h3 {
+        color: hsl(150, 100%, 66%);
+        margin: 1rem 0 2rem;
+      }
+
+      p {
+        margin: 1rem 0 2rem;
+        font-size: 28px;
+        text-align: center;
+        color: hsl(193, 38%, 86%);
+      }
+      .circle {
+        background-color: hsl(150, 100%, 66%);
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        cursor: pointer;
+        margin-top: 1rem;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .circle:hover {
+        opacity: 0.7;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="content">
+        <h3>Quote #<span class="quote_no">6</span></h3>
+        <p>
+          <q> Success is not a destination, Success is a Journey </q>
+        </p>
+        <div class="circle">></div>
+      </div>
+    </main>
+    <script src="day4.js"></script>
+  </body>
+</html>
